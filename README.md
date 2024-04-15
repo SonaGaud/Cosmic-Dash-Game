@@ -1,4 +1,4 @@
-# Cosmic Dash - Pygame Project
+# Cosmic Dash Game 
 
 Cosmic Dash is a simple arcade-style game developed using Pygame, where players navigate a spaceship through a field of asteroids, aiming to survive for as long as possible without colliding with any obstacles to achieve the highest score.
 
