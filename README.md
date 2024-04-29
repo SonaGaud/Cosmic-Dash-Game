@@ -13,7 +13,6 @@ Cosmic Dash is a simple arcade-style game developed using Pygame, where players 
    To play the game locally on your machine, follow these steps:
 
 3. Clone the repository to your local machine
-   git clone https://github.com/SonaGaud/Cosmic-Dash-Game-Project.git
 
 4. Ensure you have Python and Pygame installed on your machine.
 
