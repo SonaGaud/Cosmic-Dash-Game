@@ -20,4 +20,4 @@ Cosmic Dash is a simple arcade-style game developed using Pygame, where players 
    cd cosmic-dash
 
 6. Run the game:
-   python main.py
+   python cdash_game.py
