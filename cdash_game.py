@@ -9,11 +9,11 @@ WIDTH, HEIGHT = 800, 600
 WIN = pygame.display.set_mode((WIDTH, HEIGHT))
 pygame.display.set_caption("Cosmic Dash")
 
-# Load player image
+# Load player image 
 player_image = pygame.image.load("space_rocket.png")
 player_image = pygame.transform.scale(player_image, (50, 70))
 
-# Load asteroid image for stars
+# Load asteroid image for asteroid
 asteroid_image = pygame.image.load("asteroid_image.png")
 asteroid_image = pygame.transform.scale(asteroid_image, (25, 30))
 
@@ -32,7 +32,7 @@ def draw(player, elapsed_time, asteroid, hit, high_score):
     # Draw player image
     WIN.blit(player_image, (player.x, player.y))
 
-    # Draw asteroid images for stars
+    # Draw asteroid images for asteroid
     for aste in asteroid:
         WIN.blit(asteroid_image, (aste.x, aste.y))
 
